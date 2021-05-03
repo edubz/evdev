@@ -95,12 +95,15 @@ main > form {
   text-align: left;
   color: #232323;
   margin: 5px;
+
 }
 
 .flavor-wheel > p > a {
   color: tomato;
+
   opacity: .85;
   transition: opacity 0.3s ease;
+  
 }
 .flavor-wheel > p > a:hover {
   opacity: 1.25;
