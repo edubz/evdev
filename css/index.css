@@ -25,9 +25,16 @@ header {
   background-color: lightgrey;
   border-bottom: solid 1px;
   position: relative;
+  top: 0;
+  left: 0;
   z-index: 0;
+  display: flex;
+  flex-shrink: 0;
 }
-
+nav {
+  display: flex;
+  align-items: center;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -50,10 +57,10 @@ footer {
   height: 125px;
   width: 100vw;
   background-color: lightgrey;
-  
-  
+  position: relative;
+  flex-shrink: 0;
   border-top: solid 1px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .socials {
@@ -71,18 +78,93 @@ footer {
 
  /* Extra extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 400px) {
-
+  #menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+  
+  #menu li
+  {
+    padding: 10px 0;
+    font-size: 22px;
+  }
 
  }
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
+
+  #menu{
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+  
+  #menu li
+  {
+    padding: 10px 0;
+    font-size: 22px;
+  }
   
  }
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
+#menuToggle > span{
+display: none;
+}
+#menuToggle {
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+nav {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+  #menu{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 100%;
 
-
+    left: 0;
+    margin-left: 10px;
+    padding: 5px;
+    padding-top: 0;
+    background: lightgrey;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+ 
+  }
+  
+  #menu li
+  {
+    padding: 10px 0;
+    font-size: 22px;
+  }
  }
  
  /* Medium devices (landscape tablets, 768px and up) */
