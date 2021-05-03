@@ -38,6 +38,8 @@ nav {
   display: flex;
   align-items: center;
 }
+
+/* Main Content Styles */
 main {
   display: flex;
   flex-direction: column;
@@ -54,7 +56,9 @@ main > p {
   border: dotted 3px #232323;
   max-width: 50%;
 }
+
 /* Contact form styles */
+/*Start*/
 main > form {
   display: flex;
   flex-direction: column;
@@ -74,10 +78,39 @@ main > form {
   height: 120px;
   color: #cdcdcd;
 }
+/* Contact form styles */
+/* End */
 
-.navigation {
-  overflow: hidden;
+/* Projects styles*/
+.projectContainer {
+  
 }
+.flavor-wheel {
+  width: 320px;
+  background-color: #cdcdcd;
+  border: dotted 2px #232323;
+}
+
+.flavor-wheel > p {
+  text-align: left;
+  color: #232323;
+  margin: 5px;
+}
+
+.flavor-wheel > p > a {
+  color: tomato;
+  opacity: .85;
+  transition: opacity 0.3s ease;
+}
+.flavor-wheel > p > a:hover {
+  opacity: 1.25;
+}
+.chart {
+  position: relative;
+  left: 60px;
+}
+
+/* Footer Styles */
 footer {
   height: 125px;
   width: 100vw;
