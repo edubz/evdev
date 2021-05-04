@@ -3,9 +3,8 @@
 <meta charset="UTF-8">
 <title>evdev.tech</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="./css/nav.css">
-<link rel="stylesheet" href="./css/index.css">
-<link rel="stylesheet" href="./css/flavor-wheel.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/index.css">
 <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
 
 <body>
@@ -40,8 +39,8 @@
     -->
     <ul id="menu">
       <a href="index.html"><li>Home</li></a>
-      <a href="#"><li>Projects</li></a>
-      <a href="contact.html"><li>Contact</li></a>
+      <a href="projects.html"><li>Projects</li></a>
+      <a href="#"><li>Contact</li></a>
     </ul>
   </div>
 
@@ -65,17 +64,26 @@
   </header>
 
 <main>
-<h1>Projects</h1>
 
-<div class="projectContainer">
-  <div class="project">
-    <h1>Flavor Wheel</h1>
-    <hr>
-    <a href="./flavor-wheel.html">
-      <img src="./images/flavor-wheel.png" alt="Flavor Wheel" height="200px" width="200px">
-    </a>
-  </div>
-</div>
+<h1>Contact</h1>
+
+<form
+  action="https://formspree.io/f/xzbydjdp"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input class="contact-input email" type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea class="contact-input message" name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 
 </main>
 <footer>
@@ -100,5 +108,4 @@
 </footer>
 </body>
 <script src="./js/index.js"></script>
-<script src="./js/flavor-wheel.js"></script>
 </html> 

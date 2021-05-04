@@ -82,33 +82,36 @@ main > form {
 /* End */
 
 /* Projects styles*/
-.projectContainer {
-  
-}
-.project {
-  width: 220px;
-  background-color: white;
+.project-container {
+  display: grid;
+  width: 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px 5px;
+  grid-template-areas:
+    "project1 project2 project3"
+    "project4 project5 project6"
+    "project7 project8 project9";
 }
 
-.flavor-wheel > h1, p{
-  text-align: left;
-  color: #232323;
-}
+.project1 { grid-area: project1; }
 
-.flavor-wheel > p > a {
-  color: tomato;
+.project2 { grid-area: project2; }
 
-  opacity: .85;
-  transition: opacity 0.3s ease;
-  
-}
-.flavor-wheel > p > a:hover {
-  opacity: 1.25;
-}
-.chart {
-  position: relative;
-  left: 60px;
-}
+.project3 { grid-area: project3; }
+
+.project4 { grid-area: project4; }
+
+.project5 { grid-area: project5; }
+
+.project6 { grid-area: project6; }
+
+.project7 { grid-area: project7; }
+
+.project8 { grid-area: project8; }
+
+.project9 { grid-area: project9; }
+
 
 /* Footer Styles */
 footer {
