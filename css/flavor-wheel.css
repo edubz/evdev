@@ -27,3 +27,9 @@
     animation-fill-mode: forwards; 
     opacity: .85;
   }
+
+  .flavor-wheel {
+    width: 320px;
+    background-color: white;
+    border: dotted 2px #232323;
+  }

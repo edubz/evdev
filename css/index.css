@@ -85,17 +85,14 @@ main > form {
 .projectContainer {
   
 }
-.flavor-wheel {
-  width: 320px;
-  background-color: #cdcdcd;
-  border: dotted 2px #232323;
+.project {
+  width: 220px;
+  background-color: white;
 }
 
-.flavor-wheel > p {
+.flavor-wheel > h1, p{
   text-align: left;
   color: #232323;
-  margin: 5px;
-
 }
 
 .flavor-wheel > p > a {
