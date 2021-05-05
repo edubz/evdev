@@ -6,10 +6,19 @@ nav > ul > a > li {
   margin: 5px;
 }
 
+nav > ul > a {
+  margin: 5px;
+}
+
 nav > ul > a > li:hover {
   color: white;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
+}
+
+nav > ul > a > li::before {
+  margin-right: 5px;
+  content: "/" ;
 }
 
 #menu {
