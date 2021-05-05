@@ -8,3 +8,7 @@ nav > ul > a > li:hover {
   cursor: pointer;
   transition: color 0.3s ease-in-out;
 }
+
+#menu {
+  width: 200px;
+}
