@@ -1,0 +1,40 @@
+main > form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    align-items: flex-end;
+    margin: 10px;
+    position: relative;
+    left: calc(50% - 160px);
+}
+
+.contact-input {
+    width: 320px;
+    background-color: #232323;
+}
+
+.message {
+    height: 120px;
+    color: #cdcdcd;
+}
+
+.form-submit:hover {
+    cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+main > form {
+    width: 270px;
+    }
+
+    .contact-input {
+        width: 270px;
+        background-color: #232323;
+    }
+    
+    .message {
+        height: 120px;
+        color: #cdcdcd;
+    }
+}
