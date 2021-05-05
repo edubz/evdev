@@ -47,7 +47,7 @@ nav{
 }
 .socials {
   position: absolute;
-  right: 0;
+  right: 5px;
   bottom: 10px;
 }
 
@@ -85,6 +85,13 @@ footer {
   left: 10%;
   top: 120px;
   background-color: thistle;
+}
+
+footer > p {
+  width: 175px;
+  position: absolute;
+  bottom: 15px;
+  left: 5px;
 }
 
 /* Extra small devices (phones, 600px and down) */
