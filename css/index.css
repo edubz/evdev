@@ -57,6 +57,22 @@ nav{
   opacity: 0.95;
 }
 
+rect {
+  transition: transform 0.3s ease;
+}
+.top{
+transform: translateX(17px) rotate(45deg) translateY(-6px);
+transition: transform 0.3s ease;
+}
+.middle{
+transform: scale(0);
+transition: transform 0.3s ease;
+}
+.bottom{
+transform: rotate(-45deg) translateX(-40px) translateY(-6px);
+transition: transform 0.3s ease;
+}
+
 /* Main Content Styles */
 
 main {
