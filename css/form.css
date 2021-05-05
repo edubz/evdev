@@ -11,6 +11,7 @@ main > form {
 .contact-input {
     width: 320px;
     background-color: #232323;
+    color: #cdcdcd;
 }
 
 .message {
