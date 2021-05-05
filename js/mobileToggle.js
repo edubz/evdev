@@ -1,3 +1,7 @@
 
 const hamburger = document.getElementById('hamburger');
-console.log(hamburger)
+const nav = document.querySelector('nav');
+
+hamburger.onclick = function(){
+    nav.classList.toggle('menuToggle')
+}
