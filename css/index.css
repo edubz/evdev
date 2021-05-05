@@ -72,7 +72,6 @@ footer {
   background-color: thistle;
 }
 
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   header {
@@ -90,32 +89,36 @@ footer {
   #hamburger:hover {
     cursor: pointer;
   }
-  #menu{
+  
+  nav {
     display: none;
+  }
+
+  .menuToggle {
+    display: block;
   }
 
   /* Main Content Styles */
 
-main {
-  width: 90%;
-  height: 100vh;
-  position: relative;
-  top: 110px;
-  left: 5%;
-  background-color: violet;
-}
+  main {
+    width: 90%;
+    height: 100vh;
+    position: relative;
+    top: 110px;
+    left: 5%;
+    background-color: violet;
+  }
 
-/* Footer Styles */
+  /* Footer Styles */
 
-footer {
-  position: relative;
-  width: 90%;
-  height: 100px;
-  left: 5%;
-  top: 120px;
-  background-color: thistle;
-}
-
+  footer {
+    position: relative;
+    width: 90%;
+    height: 100px;
+    left: 5%;
+    top: 120px;
+    background-color: thistle;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
