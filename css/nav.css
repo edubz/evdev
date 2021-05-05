@@ -1,0 +1,10 @@
+nav > ul > a > li {
+  color: black;
+  width: 100px;
+}
+
+nav > ul > a > li:hover {
+  color: white;
+  cursor: pointer;
+  transition: color .3s ease-in-out;
+}
