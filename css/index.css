@@ -33,10 +33,10 @@ header {
   bottom: 10px;
 }
 
-.socials > a:hover svg > path{
+.socials > a:hover svg > path {
   fill: tomato;
   transition: fill 0.3s ease;
-  opacity: .95;
+  opacity: 0.95;
 }
 
 /* Main Content Styles */
@@ -50,10 +50,8 @@ main {
   background-color: violet;
 }
 
-
 /* Contact form styles */
 /*Start*/
-
 
 /* Contact form styles */
 /* End */
@@ -71,35 +69,25 @@ footer {
   background-color: thistle;
 }
 
- /* Extra extra small devices (phones, 600px and down) */
- @media only screen and (max-width: 400px) {
-  
- }
- /* Extra small devices (phones, 600px and down) */
- @media only screen and (max-width: 600px) {
+/* Extra extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
 
-  
- }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
 
- /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 600px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
 
- }
- 
- /* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
 
-
- }
- 
- /* Large devices (laptops/desktops, 992px and up) */
- @media only screen and (min-width: 992px) {
-
-
- }
- 
- /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1200px) {
-
-
- } 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
