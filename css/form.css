@@ -5,7 +5,7 @@ main > form {
     align-items: flex-end;
     margin: 10px;
     position: relative;
-    left: calc(50% - 160px);
+    /* left: calc(50% - 160px); */
 }
 
 .contact-input {
