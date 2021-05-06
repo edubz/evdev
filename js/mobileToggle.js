@@ -3,7 +3,6 @@ const hamburger = document.getElementById('hamburger');
 const nav = document.querySelector('nav');
 const burgerSvg = document.querySelectorAll('rect')
 
-console.log(nav.className)
 
 window.onresize = function(event) {
     if (window.innerWidth >= 600 && nav.className == "menuToggle") {
