@@ -44,44 +44,7 @@ header {
   left: 10%;
   z-index: 1;
 }
-#menu {
-  width: 420px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 
-#hamburger {
-  display: none;
-}
-.socials {
-  position: absolute;
-  right: 5px;
-  bottom: 10px;
-}
-
-.socials > a:hover svg > path {
-  fill: tomato;
-  transition: fill 0.3s ease;
-  opacity: 0.95;
-}
-
-rect {
-  transition: transform 0.3s ease;
-}
-.top{
-transform: translateX(17px) rotate(45deg) translateY(-6px);
-transition: transform 0.3s ease;
-}
-.middle{
-transform: scale(0);
-transition: transform 0.3s ease;
-}
-.bottom{
-transform: rotate(-45deg) translateX(-40px) translateY(-6px);
-transition: transform 0.3s ease;
-}
 
 /* Main Content Styles */
 
@@ -133,49 +96,6 @@ footer > p {
     left: 5%;
     z-index: 1;
   }
-  #hamburger {
-    display: block;
-    z-index: 1;
-    position: relative;
-    margin: 5px;
-  }
-  #hamburger:hover {
-    cursor: pointer;
-  }
-
-  nav {
-    position: relative;
-    left: -1000px;
-    opacity: 0;
-    transition: left .3s ease-in-out;
-  }
-  #menu{
-    display: block;
-    position: absolute;
-    top: 75px;
-    height: 100%;
-    width: 180px;
-  }
-  nav > ul > a > li {
-    color: black;
-    width: 110px;
-    font-size: 20px;
-    text-align: left;
-  }
-
-  
-
-  .menuToggle {
-    display: block;
-    height: 350px;
-    width:180px;
-    background-color: wheat;
-    opacity: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-  }
 
   /* Main Content Styles */
 
@@ -205,13 +125,6 @@ footer > p {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-  nav > ul > a > li {
-    color: black;
-    width: 100px;
-    font-size: 20px;
-    text-align: center;
-    margin: 0px;
-  }
 
 }
 
