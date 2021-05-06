@@ -28,6 +28,9 @@
       "project11"
       "project12";
   }
+  .project {
+      margin-top: 5px;
+  }
   .project1 { 
 
     grid-area: project1; 
