@@ -37,7 +37,7 @@ main > h1 {
 header {
   height: 100px;
   width: 80%;
-  background-color: #F6AE2D;
+  background-color: teal;
   position: fixed;
   top: 0;
   left: 10%;
