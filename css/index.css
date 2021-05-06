@@ -22,6 +22,17 @@ body {
 main > h1 {
   margin: 10px;
 }
+
+.about, .blog {
+  border: solid 1px black;
+  background-color: thistle;
+  margin: 10px;
+  padding: 5px;
+  position: absolute;
+  max-width: 500px;
+}
+
+
 /* Header and navigation styles */
 header {
   height: 100px;
@@ -39,9 +50,7 @@ header {
   align-items: center;
   justify-content: space-around;
 }
-nav{
-  
-}
+
 #hamburger {
   display: none;
 }
@@ -176,6 +185,8 @@ footer > p {
     left: 5%;
     background-color: violet;
   }
+
+
 
   /* Footer Styles */
 
