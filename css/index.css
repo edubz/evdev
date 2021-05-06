@@ -82,6 +82,7 @@ main {
   top: 110px;
   left: 10%;
   background-color: violet;
+  overflow: scroll;
 }
 
 /* Contact form styles */
