@@ -1,0 +1,175 @@
+
+  
+   /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px 5px;
+    grid-template-areas:
+      "project1"
+      "project2"
+      "project3"
+      "project4"
+      "project5"
+      "project6"
+      "project7"
+      "project8"
+      "project9"
+      "project10"
+      "project11"
+      "project12";
+  }
+  .project1 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    border: dotted 3px #cdcdcd; 
+    grid-area: project1; 
+    justify-content: center;
+    align-content: center;
+  }
+  .project2 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    border: dotted 3px #cdcdcd; 
+    grid-area: project2; 
+    justify-content: center;
+    align-content: center;
+  }
+  .project3 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    border: dotted 3px #cdcdcd; 
+    grid-area: project3; 
+    justify-content: center;
+    align-content: center;
+  }
+  .project4 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;border: dotted 3px #cdcdcd; grid-area: project4; }
+  .project5 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;border: dotted 3px #cdcdcd; grid-area: project5; }
+  .project6 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;border: dotted 3px #cdcdcd; grid-area: project6; }
+  .project7 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;border: dotted 3px #cdcdcd; grid-area: project7; }
+  .project8 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;border: dotted 3px #cdcdcd; grid-area: project8; }
+  .project9 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;border: dotted 3px #cdcdcd; grid-area: project9; }
+  .project10 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;border: dotted 3px #cdcdcd; grid-area: project10; }
+  .project11 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;border: dotted 3px #cdcdcd; grid-area: project11; }
+  .project12 { 
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;border: dotted 3px #cdcdcd; grid-area: project12; }
+  }
+
+   /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+    
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 5px 5px;
+        grid-template-areas:
+          "project1 project2"
+          "project3 project4"
+          "project5 project6"
+          "project7 project8"
+          "project9 project10"
+          "project11 project12";
+      }
+      .project1 { 
+        width: 100%;
+        height: 100%;
+        border: dotted 3px #cdcdcd; grid-area: project1; }
+      .project2 { 
+        width: 100%;
+        height: 100%;
+        border: dotted 3px #cdcdcd; grid-area: project2; }
+      .project3 { 
+        width: 100%;
+        height: 100%;
+        border: dotted 3px #cdcdcd; grid-area: project3; }
+      .project4 { border: dotted 3px #cdcdcd; grid-area: project4; }
+      .project5 { border: dotted 3px #cdcdcd; grid-area: project5; }
+      .project6 { border: dotted 3px #cdcdcd; grid-area: project6; }
+      .project7 { border: dotted 3px #cdcdcd; grid-area: project7; }
+      .project8 { border: dotted 3px #cdcdcd; grid-area: project8; }
+      .project9 { border: dotted 3px #cdcdcd; grid-area: project9; }
+      .project10 { border: dotted 3px #cdcdcd; grid-area: project10; }
+      .project11 { border: dotted 3px #cdcdcd; grid-area: project11; }
+      .project12 { border: dotted 3px #cdcdcd; grid-area: project12; }
+      
+     }
+
+
+
+   /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 5px 5px;
+      grid-template-areas:
+        "project1 project2"
+        "project3 project4"
+        "project5 project6"
+        "project7 project8"
+        "project9 project10"
+        "project11 project12";
+    }
+    .project1 { 
+      width: 100%;
+      height: 100%;
+      border: dotted 3px #cdcdcd; grid-area: project1; }
+    .project2 { 
+      width: 100%;
+      height: 100%;
+      border: dotted 3px #cdcdcd; grid-area: project2; }
+    .project3 { 
+      width: 100%;
+      height: 100%;
+      border: dotted 3px #cdcdcd; grid-area: project3; }
+    .project4 { border: dotted 3px #cdcdcd; grid-area: project4; }
+    .project5 { border: dotted 3px #cdcdcd; grid-area: project5; }
+    .project6 { border: dotted 3px #cdcdcd; grid-area: project6; }
+    .project7 { border: dotted 3px #cdcdcd; grid-area: project7; }
+    .project8 { border: dotted 3px #cdcdcd; grid-area: project8; }
+    .project9 { border: dotted 3px #cdcdcd; grid-area: project9; }
+    .project10 { border: dotted 3px #cdcdcd; grid-area: project10; }
+    .project11 { border: dotted 3px #cdcdcd; grid-area: project11; }
+    .project12 { border: dotted 3px #cdcdcd; grid-area: project12; }
+    
+   }
+   
+     
