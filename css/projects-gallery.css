@@ -8,6 +8,15 @@
      
       margin-top: 10px;
   }
+
+  .project > a > img {
+      border: dotted 3px black;
+      transition: box-shadow .1s ease-in-out;
+  }
+  .project > a:hover > img {
+    border: solid 1px black;
+    box-shadow: -10px 5px 5px black;
+}
    /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 450px) {
   .grid-container {
