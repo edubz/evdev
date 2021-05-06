@@ -10,7 +10,7 @@
   }
 
   .project > a > img {
-      border: dotted 3px black;
+      border: solid 2px black;
       transition: box-shadow .1s ease-in-out;
   }
   .project > a:hover > img {
