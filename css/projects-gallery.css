@@ -11,6 +11,9 @@
    /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
   .grid-container {
+      display: flex;
+      flex-direction: column;
+      /*
     display: grid;
     padding: 15px;
     grid-template-columns: 100%;
@@ -28,6 +31,7 @@
       "project10"
       "project11"
       "project12";
+      */
   }
   .project {
       margin-top: 5px;
@@ -35,21 +39,18 @@
   .project1 { 
 
     grid-area: project1; 
-    justify-content: center;
-    align-content: center;
+
   }
   .project2 { 
 
     grid-area: project2; 
-    justify-content: center;
-    align-content: center;
+
   }
   .project3 { 
 
    
     grid-area: project3; 
-    justify-content: center;
-    align-content: center;
+
   }
   .project4 { 
 grid-area: project4; }
