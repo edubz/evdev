@@ -90,7 +90,7 @@ main {
   position: relative;
   top: 110px;
   left: 10%;
-  background-color: violet;
+  background-color: floralwhite;
   overflow: scroll;
 }
 
@@ -183,7 +183,7 @@ footer > p {
     position: relative;
     top: 110px;
     left: 5%;
-    background-color: violet;
+    background-color: floralwhite;
   }
 
 
