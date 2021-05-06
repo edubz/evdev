@@ -92,7 +92,8 @@ main {
   top: 110px;
   left: 10%;
   background-color: floralwhite;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 /* Contact form styles */
