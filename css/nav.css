@@ -22,10 +22,6 @@ nav > ul > a > li::before {
 }
 
 #menu {
-  width: 200px;
-}
-
-#menu {
   width: 420px;
   height: 100px;
   display: flex;
