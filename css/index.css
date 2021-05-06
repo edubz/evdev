@@ -62,7 +62,7 @@ header {
 }
 
 .socials > a:hover svg > path {
-  fill: #F26419;
+  fill: tomato;
   transition: fill 0.3s ease;
   opacity: 0.95;
 }

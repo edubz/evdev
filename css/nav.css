@@ -11,7 +11,7 @@ nav > ul > a {
 }
 
 nav > ul > a > li:hover {
-color: #F26419;
+color: white;
   cursor: pointer;
   transition: color 0.15s ease-in-out;
 }
