@@ -52,7 +52,7 @@ main {
   position: relative;
   top: 110px;
   left: 10%;
-  background-color: #F0F7D4;
+  background-color: white;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
@@ -116,7 +116,7 @@ footer > p {
     position: relative;
     top: 110px;
     left: 0;
-    background-color: floralwhite;
+    background-color: white;
   }
 
 
