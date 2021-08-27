@@ -103,7 +103,7 @@ transition: transform 0.3s ease;
 
   .menuToggle {
     display: block;
-    height: 350px;
+    height: 100vh;
     width:180px;
     background-color: #F0F7D4;
     border: solid 1px whitesmoke;
