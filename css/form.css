@@ -10,13 +10,13 @@ main > form {
 
 .contact-input {
     width: 320px;
-    background-color: #232323;
-    color: #cdcdcd;
+    background-color: white;
+    color: black;
 }
 
 .message {
     height: 120px;
-    color: #cdcdcd;
+    color: black;
 }
 
 .form-submit:hover {
