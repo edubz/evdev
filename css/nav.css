@@ -12,7 +12,7 @@ nav > ul > a {
 }
 
 nav > ul > a > li:hover {
-  color: green;
+  color: #347B98;
   cursor: pointer;
   transition: color 0.15s ease-in-out;
 }
